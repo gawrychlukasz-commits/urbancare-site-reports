@@ -1,12 +1,9 @@
-# URBANCARE Site Reports — V3 (GitHub Pages)
+# URBANCARE Site Reports V3.3 (GitHub Pages)
 
-Files: `index.html`, `lukasz-portrait.png`, `urbancare-wordmark.png`. Upload all 3 files to the root of your existing GitHub Pages repository's `main` branch.
+Includes all six condition-report templates and quick Task Completion Reports.
 
-## New in V3
-A new report starts with selection of one of six service types. Each loads its six tailored inspection sections and five observation presets per section (plus Other). Existing V2 reports remain available in the same IndexedDB storage and keep their original section names; do not clear site data. Existing report type is not forcibly rewritten.
+Task Completion: editable automatic Sydney work date and job start time (no finish time), optional GPS capture after permission, side-by-side before/after photos, work notes and completion status, and a dedicated final thank-you page with the actual owner portrait and typed sign-off.
 
-## Privacy
-GitHub Pages hosts only the public website files. Reports and images stay in the local browser's IndexedDB, not encrypted or synced. Export backups regularly, especially before updating or clearing browser data. Use secure hosting/authentication for sensitive client data.
+Deployment: upload `index.html`, `lukasz-portrait.png`, and `urbancare-wordmark.png` into the GitHub Pages repository root (main branch). Keep the existing CNAME file. Photos and reports remain stored locally on the device in IndexedDB; they are not synced.
 
-## PDF
-Use your browser's print > Save as PDF. The photo appendix is not capped at two pages. Portrait and typed signature appear on closing page. Test printing with iPhone Safari before client use.
+Print: select PDF / save PDF from your browser print menu. Check generated page ordering and all photo pages on your device before sending to clients. GPS requires HTTPS and a permission prompt, may be unavailable on some devices, and does not automatically resolve a street address.
