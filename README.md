@@ -1,9 +1,9 @@
-# URBANCARE Site Reports V3.3 (GitHub Pages)
+# URBANCARE Site Reports V3.4 — Client selection
 
-Includes all six condition-report templates and quick Task Completion Reports.
+Retains all six condition-report templates, Task Completion Reports, photo capture and annotation, PDF export and owner portrait.
 
-Task Completion: editable automatic Sydney work date and job start time (no finish time), optional GPS capture after permission, side-by-side before/after photos, work notes and completion status, and a dedicated final thank-you page with the actual owner portrait and typed sign-off.
+New: a client selector in BOTH report forms. Save a report with a client name to create/update its local client directory entry. Later reports can select that client to populate name, contact, site address, and optional email address and internal notes. The PDF omits the private client email and internal follow-up notes.
 
-Deployment: upload `index.html`, `lukasz-portrait.png`, and `urbancare-wordmark.png` into the GitHub Pages repository root (main branch). Keep the existing CNAME file. Photos and reports remain stored locally on the device in IndexedDB; they are not synced.
+Client directory and reports exist on the same device/browser only and do not sync with ChatGPT/Outlook. The Export backup JSON now includes the client directory; importing also supports completion reports. Do not store highly sensitive information in client notes.
 
-Print: select PDF / save PDF from your browser print menu. Check generated page ordering and all photo pages on your device before sending to clients. GPS requires HTTPS and a permission prompt, may be unavailable on some devices, and does not automatically resolve a street address.
+To deploy: upload index.html, lukasz-portrait.png, and urbancare-wordmark.png to the GitHub repository root on main. Keep the CNAME file. Test on your phone before client use.
